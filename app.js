@@ -71,6 +71,9 @@ router.post('/addUser',(req,res)=>{
     res.redirect("/login");
 })
 
+
+
+
 app.use('/',router);
 
 app.listen(3000);
